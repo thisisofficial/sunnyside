@@ -2,6 +2,7 @@ import logo from './logo.svg';
 import './App.css';
 import {FirstSection} from './sections/firstSection/firstSection'
 import {TileSection} from './sections/tileSection/tileSection'
+import {UserSection} from './sections/userSection/userSection'
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
           Edit <code>src/App.js</code> and save to reload.
         </p>
         <FirstSection/>
+        <UserSection/>
         <TileSection/>
       </header>
     </div>

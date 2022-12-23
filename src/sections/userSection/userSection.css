@@ -1,0 +1,45 @@
+.user-section{
+    width: 100%;
+    padding-top: 160px;
+}
+
+.user-section-title{
+    font-family: 'Fraunces';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 20px;
+    line-height: 25px;
+
+    text-align: center;
+    letter-spacing: 5px;
+
+    color: #A7AAAD;
+    width: 100%;
+    margin-bottom: 80px;
+}
+
+.user-section-users{
+    display: flex;
+    width: 83%;
+    padding: 160px 8.5%;
+}
+
+@media(max-width: 400px){
+    .user-section{
+        padding-top: 64px;
+    }
+
+    .user-section-title{
+        margin-bottom: 64px;
+    }
+
+    .user-section-users{
+        display: inline;
+        margin-bottom: 0;
+    }
+
+    .user-section-user{
+        margin-bottom: 64px;
+        padding: 0 24px;
+    }
+}

@@ -1,0 +1,77 @@
+.user-container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    min-height: 351px;
+    justify-content: space-between;
+}
+
+.user-pp{
+    width: 72px;
+    height: 72px;
+    border-radius: 50%;
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    align-self: center;
+    margin-bottom: 58px;
+}
+
+.user-testimony{
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 32px;
+
+    text-align: center;
+    letter-spacing: -0.128571px;
+
+    color: #5B636D;
+    text-align: center;
+    justify-self: center;
+}
+
+.user-info-container{
+    margin-top: 69px;
+
+}
+
+.user-name{
+    font-family: 'Fraunces';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    letter-spacing: -0.128571px;
+
+    color: #24303E;
+}
+
+.user-work{
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 25px;
+
+    text-align: center;
+    letter-spacing: -0.1px;
+
+    color: #A7AAAD;
+}
+
+@media (max-width: 400px){
+    .user-info-container{
+        margin-top: 32px;
+    }
+
+    .user-pp{
+        margin-bottom: 32px;
+    }
+
+    .user-container{
+        min-height: 288px;
+    }
+}
