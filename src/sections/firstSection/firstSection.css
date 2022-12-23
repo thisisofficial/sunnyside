@@ -1,0 +1,31 @@
+.flex-container{
+    display: flex;
+    width: 100vw;
+    min-height: 600px;
+    max-height: 700px;
+    height: 30vw;
+}
+
+.flex-container-reverse{
+    display: flex;
+    width: 100vw;
+    flex-direction: row-reverse;
+    min-height: 600px;
+    max-height: 700px;
+    height: 30vw;
+}
+
+.half{
+    width: 50%;
+    min-height: 600px;
+}
+
+@media (max-width: 400px){
+    .flex-container, .flex-container-reverse{
+        display: inline;
+    }
+    .half{
+        width: 100%;
+        min-height: unset;
+    }
+}

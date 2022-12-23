@@ -1,0 +1,46 @@
+.image-container{
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 315px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.image-container-text-container{
+    min-height: 150px;
+    margin: 398px 24px 59px;
+    width: 330px;
+}
+
+.title{
+    font-family: 'Fraunces';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 28px;
+    line-height: 35px;
+
+    text-align: center;
+    letter-spacing: -0.2px;
+    margin-bottom: 27px;
+}
+
+.text{
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 27px;
+
+
+    text-align: center;
+    letter-spacing: -0.114286px;
+}
+
+@media (max-width: 400px){
+    .galery{
+        min-height: 188px;
+    }
+}
