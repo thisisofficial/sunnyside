@@ -24,6 +24,10 @@
     padding: 160px 8.5%;
 }
 
+.user-section-user{
+    margin: 0 15px;
+}
+
 @media(max-width: 400px){
     .user-section{
         padding-top: 64px;
@@ -39,6 +43,7 @@
     }
 
     .user-section-user{
+        margin: 0;
         margin-bottom: 64px;
         padding: 0 24px;
     }

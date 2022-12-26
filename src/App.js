@@ -3,6 +3,7 @@ import './App.css';
 import {FirstSection} from './sections/firstSection/firstSection'
 import {TileSection} from './sections/tileSection/tileSection'
 import {UserSection} from './sections/userSection/userSection'
+import {FooterSection} from './sections/footerSection/footerSection'
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
         <FirstSection/>
         <UserSection/>
         <TileSection/>
+        <FooterSection/>
       </header>
     </div>
   );

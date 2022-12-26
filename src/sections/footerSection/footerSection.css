@@ -1,0 +1,59 @@
+footer{
+    background: #90D4C6;
+    width: 375px;
+    height: calc(350px - 72px - 72px);
+    padding:72px calc(50% - 187.5px);
+}
+
+.footer-logo{
+    width: 123.64px;
+    height: 33px;
+}
+
+.footer-logo path{
+    fill:#2C7566;
+
+}
+
+.footer-extras{
+    display: flex;
+    margin-top: 40px;
+}
+
+.footer-extra{
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+
+
+    letter-spacing: -0.128571px;
+
+    color: #458D7E;
+    margin: 0 28.5px;
+    transition: .2s;
+}
+
+.footer-extra:hover{
+    cursor: pointer;
+    color: white;
+}
+
+.footer-icons{
+    margin-top: 88px;
+}
+
+.footer-icon{
+    margin: 0 14px;
+}
+.footer-icon path{
+    transition: .2s;
+}
+
+.footer-icon:hover path{
+    fill: white;
+    cursor: pointer;
+
+}
+

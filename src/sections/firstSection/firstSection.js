@@ -1,10 +1,10 @@
 import React from 'react'
 import { ImageContainer } from '../../components/imageContainer/imageContainer.tsx';
 import { TextContainer } from '../../components/textContainer/textContainer.tsx';
-import Egg from 'C:/Users/thisi/sunnyside/src/assets/desktop/image-transform.jpg'
-import Cup from 'C:/Users/thisi/sunnyside/src/assets/desktop/image-stand-out.jpg'
-import Cherry from 'C:/Users/thisi/sunnyside/src/assets/desktop/image-graphic-design.jpg'
-import Orange from 'C:/Users/thisi/sunnyside/src/assets/desktop/image-photography.jpg'
+import Egg from '../../assets/desktop/image-transform.jpg'
+import Cup from '../../assets/desktop/image-stand-out.jpg'
+import Cherry from '../../assets/desktop/image-graphic-design.jpg'
+import Orange from '../../assets/desktop/image-photography.jpg'
 import './firstSection.css'
 
 export const FirstSection = () =>{

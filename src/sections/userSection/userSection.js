@@ -1,8 +1,8 @@
 import React from 'react'
 import { UserContainer } from '../../components/userContainer/userContainer.tsx'
-import Emily from 'C:/Users/thisi/sunnyside/src/assets/image-emily.jpg'
-import Jennie from 'C:/Users/thisi/sunnyside/src/assets/image-jennie.jpg'
-import Thomas from 'C:/Users/thisi/sunnyside/src/assets/image-thomas.jpg'
+import Emily from '../../assets/image-emily.jpg'
+import Jennie from '../../assets/image-jennie.jpg'
+import Thomas from '../../assets/image-thomas.jpg'
 import './userSection.css'
 
 
@@ -33,8 +33,8 @@ export const UserSection = () =>{
       <div className='user-section-title'>CLIENT TESTIMONIALS</div>
       <div className='user-section-users'>
         {users.map((user) => (
-          <div className='user-section-user'>
-            <UserContainer 
+          <div className='user-section-user' key={user.name}>
+            <UserContainer
               image={user.image} 
               text={user.text}
               name={user.name} 
