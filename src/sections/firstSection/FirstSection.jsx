@@ -1,6 +1,6 @@
 import React from 'react'
-import { ImageContainer } from '../../components/imageContainer/imageContainer.tsx';
-import { TextContainer } from '../../components/textContainer/textContainer.tsx';
+import { ImageContainer } from '../../components/imageContainer/ImageContainer.jsx';
+import { TextContainer } from '../../components/textContainer/TextContainer.jsx';
 import Egg from '../../assets/desktop/image-transform.jpg'
 import Cup from '../../assets/desktop/image-stand-out.jpg'
 import Cherry from '../../assets/desktop/image-graphic-design.jpg'

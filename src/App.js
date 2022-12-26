@@ -1,9 +1,9 @@
 import logo from './logo.svg';
 import './App.css';
-import {FirstSection} from './sections/firstSection/firstSection'
-import {TileSection} from './sections/tileSection/tileSection'
-import {UserSection} from './sections/userSection/userSection'
-import {FooterSection} from './sections/footerSection/footerSection'
+import {FirstSection} from './sections/firstSection/FirstSection.jsx'
+import {TileSection} from './sections/tileSection/TileSection.jsx'
+import {UserSection} from './sections/userSection/UserSection.jsx'
+import {FooterSection} from './sections/footerSection/FooterSection.jsx'
 
 function App() {
   return (

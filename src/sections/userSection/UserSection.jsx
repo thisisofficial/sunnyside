@@ -1,5 +1,5 @@
 import React from 'react'
-import { UserContainer } from '../../components/userContainer/userContainer.tsx'
+import { UserContainer } from '../../components/userContainer/UserContainer.jsx'
 import Emily from '../../assets/image-emily.jpg'
 import Jennie from '../../assets/image-jennie.jpg'
 import Thomas from '../../assets/image-thomas.jpg'

@@ -1,15 +1,8 @@
 import React from 'react'
 import './imageContainer.css'
 
-interface ImageContainerProps {
-    text?: string;
-    title?: string;
-    image: string;
-    color?: string;
-    galery?: boolean;
-}
 
-export const ImageContainer = ({text, title, image, color, galery} :  ImageContainerProps) => {
+export const ImageContainer = ({text , title , image, color, galery}) => {
   return (
     <div className={`image-container ${galery&&'galery'}`} style={{backgroundImage: `url(${image})`}}>
         {title && 

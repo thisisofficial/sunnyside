@@ -1,5 +1,5 @@
 import React from 'react'
-import { ImageContainer } from '../../components/imageContainer/imageContainer.tsx'
+import { ImageContainer } from '../../components/imageContainer/ImageContainer.jsx'
 import Cone from '../..//assets/desktop/image-gallery-cone.jpg'
 import Milk from '../..//assets/desktop/image-gallery-milkbottles.jpg'
 import Orange from '../..//assets/desktop/image-gallery-orange.jpg'

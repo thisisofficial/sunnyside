@@ -1,16 +1,8 @@
 import React from 'react'
-import { Button } from '../button/button.tsx'
+import { Button } from '../button/Button.jsx'
 import './textContainer.css'
 
-interface TextContainerProps {
-    title: string;
-    text: string;
-    label: string;
-    labelColor: string;
-    labelLink?: string;
-}
-
-export const TextContainer = ({title, text, label, labelColor, labelLink} :  TextContainerProps) =>{
+export const TextContainer = ({title, text, label, labelColor, labelLink}) =>{
   return (
     <div className='text-container'>
         <div className='text-container-title'>{title}</div>

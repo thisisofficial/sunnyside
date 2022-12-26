@@ -1,13 +1,8 @@
 import React from 'react'
 import './button.css'
 
-interface ButtonProps {
-    label: string;
-    color: string;
-    link?: string;
-}
 
-export const Button = ({label, color, link} : ButtonProps) =>{
+export const Button = ({label, color, link}) =>{
   return (
     <div className='button-container'>
         <a style={{textDecoration: 'none'}}href={link}>
