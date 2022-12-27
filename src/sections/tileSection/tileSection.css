@@ -11,7 +11,7 @@
     height: 40vw;
 }
 
-@media (max-width: 400px){
+@media (max-width: 420px){
     .tiles-container{
         display: inline;
     }

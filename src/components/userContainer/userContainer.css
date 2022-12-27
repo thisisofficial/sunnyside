@@ -62,7 +62,7 @@
     color: #A7AAAD;
 }
 
-@media (max-width: 400px){
+@media (max-width: 420px){
     .user-info-container{
         margin-top: 32px;
     }

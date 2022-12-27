@@ -28,7 +28,7 @@
     margin: 0 15px;
 }
 
-@media(max-width: 400px){
+@media(max-width: 420px){
     .user-section{
         padding-top: 64px;
     }

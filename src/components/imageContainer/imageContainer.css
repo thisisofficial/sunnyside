@@ -39,7 +39,7 @@
     letter-spacing: -0.114286px;
 }
 
-@media (max-width: 400px){
+@media (max-width: 420px){
     .galery{
         min-height: 188px;
     }
